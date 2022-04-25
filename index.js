@@ -20,6 +20,8 @@ const bubbleMaker = () => {
         counter++;
         counterDisplay.textContent = counter;
         bubble.remove();
+        var audio = new Audio('./audio/appeal.wav');
+        audio.play();
     });
 
     setTimeout(() => {
